@@ -1,0 +1,62 @@
+{
+  "name": "Video-Traffic-Analytic-API-Webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "refine": "refine",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "@refinedev/cli": "^2.5.1",
+    "@refinedev/core": "^4.5.8",
+    "@refinedev/inferencer": "^3.1.4",
+    "@refinedev/kbar": "^1.1.0",
+    "@refinedev/nextjs-router": "^5.1.4",
+    "@refinedev/react-hook-form": "^4.4.2",
+    "@refinedev/react-table": "^5.0.0",
+    "@refinedev/simple-rest": "^4.0.0",
+    "axios": "^0.26.1",
+    "moment": "^2.29.4",
+    "next": "^13.0.6",
+    "next-auth": "^4.20.1",
+    "nextjs-cors": "^2.1.2",
+    "nookies": "^2.5.2",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "@storybook/addon-essentials": "^7.0.8",
+    "@storybook/addon-interactions": "^7.0.8",
+    "@storybook/addon-links": "^7.0.8",
+    "@storybook/blocks": "^7.0.8",
+    "@storybook/builder-webpack5": "^7.0.8",
+    "@storybook/manager-webpack5": "^6.5.0-rc.1",
+    "@storybook/nextjs": "^7.0.8",
+    "@storybook/react": "^7.0.8",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@tomfreudenberg/next-auth-mock": "^0.5.6",
+    "@types/node": "^12.20.11",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/parser": "5.48.0",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^8.3.0",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.23",
+    "storybook": "^7.0.8",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.82.0"
+  }
+}
