@@ -15,7 +15,7 @@ You’ll have to make the following creations to your your .env.local file
 
     npm run dev
 
-and go url: http://localhost:3000/   
+and go url: http://localhost:3000/
 
 ## Run story book
 
